@@ -8,28 +8,29 @@ Modern board games can be complex, rules are extensive, and finding enough playe
 
 Druzabac bridges that gap by providing a platform where players can create events, discover nearby sessions, and coordinate through Discord integration.
 
+> **Note:** This project is currently a work in progress and is not a final product. Features and UI are subject to change.
+
 ---
 
 ## Screenshots
 
 <!-- Add your screenshots or GIFs below. Recommended size: 300px width for phone screenshots. -->
 
-| Home Screen | Event Details | User Profile |
-|:-----------:|:-------------:|:------------:|
-| ![Home Screen](screenshots/home.png) | ![Event Details](screenshots/event_details.png) | ![User Profile](screenshots/profile.png) |
+| Home Screen (List View) | Home Screen (Map View) | Event Details |
+|:-----------------------:|:----------------------:|:-------------:|
+| <img src="screenshots/list.jpg" alt="Home Screen List View" height="500"> | <img src="screenshots/map.jpg" alt="Home Screen Map View" height="500"> | <img src="screenshots/details.jpg" alt="Event Details" height="500"> |
 
-| Create Event | Search | Game Collection |
+| User Profile | Search | Game Collection |
 |:------------:|:------:|:---------------:|
-| ![Create Event](screenshots/create_event.png) | ![Search](screenshots/search.png) | ![Game Collection](screenshots/game_collection.png) |
+| <img src="screenshots/profile.jpg" alt="User Profile" height="500"> | <img src="screenshots/search.jpg" alt="Search" height="500"> | <img src="screenshots/games.jpg" alt="Game Collection" height="500"> |
+
+| Event Details (Host View) | Map Details |
+|:-------------------------:|:-----------:|
+| <img src="screenshots/details-host.jpg" alt="Event Details Host View" height="500"> | <img src="screenshots/map-details.jpg" alt="Map Details" height="500"> |
 
 | Light Theme | Dark Theme |
 |:-----------:|:----------:|
-| ![Light Theme](screenshots/light_theme.png) | ![Dark Theme](screenshots/dark_theme.png) |
-
-<!-- To add GIFs showcasing app flow:
-![Event Flow](screenshots/event_flow.gif)
-![Social Flow](screenshots/social_flow.gif)
--->
+| <img src="screenshots/light.jpg" alt="Light Theme" height="500"> | <img src="screenshots/list.jpg" alt="Dark Theme" height="500"> |
 
 ---
 
@@ -127,6 +128,6 @@ Real-time Firestore snapshot listeners keep the UI in sync with the database, so
 
 Copyright (c) 2026. All rights reserved.
 
-This is a personal project created and developed by [leairt](https://github.com/leairt). The original idea and concept were created by [leairt](https://github.com/leairt) and [Bogdan Djukic](https://github.com/bgdj11).
+This is a personal project created and developed by [Lea Irt](https://github.com/leairt). The original idea and concept were created by [Lea Irt](https://github.com/leairt) and [Bogdan Đukic](https://github.com/bgdj11).
 
 No part of this project may be reproduced, distributed, or used without explicit permission from the authors.
